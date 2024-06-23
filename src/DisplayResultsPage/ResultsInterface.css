@@ -1,0 +1,54 @@
+.resultsinterface-container {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 110px); /* Adjust height to fill the screen below the top bar */
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 0 #0000001a;
+    overflow: auto; /* Adds scroll for entire container if content exceeds screen height */
+}
+
+.resultsinterface-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px; /* Adds padding around the content */
+}
+
+.resultsinterface-content h1 {
+    color: #081430;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 20px; /* Ensures spacing between title and content */
+    width: 100%; /* Ensures the title spans full width of its container */
+}
+
+.resultsinterface-left, .resultsinterface-right {
+    flex: 1; /* Flexbox manages width automatically */
+    padding: 20px; /* More padding for better text visibility */
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    box-sizing: border-box; /* Includes padding in width calculation */
+}
+
+.resultsinterface-right {
+    border-left: 2px solid #ccc; /* Visual separation between the two columns */
+}
+
+.resume-display {
+    white-space: pre-wrap; /* Maintains whitespace for formatted text like code or preformatted content */
+    overflow-y: auto; /* Adds vertical scroll to the resume display area if content is long */
+}
+
+iframe {
+    border: none; /* No border */
+    width: 100%; /* Full width of its container */
+    height: 100%; /* Adjust based on how much you want to show */
+    overflow-y: auto; /* Allows internal scrolling for longer PDFs */
+}
+
+.score-bar {
+    transition: width 0.5s ease-in-out;
+}

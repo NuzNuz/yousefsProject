@@ -1,0 +1,83 @@
+.upload-section-container {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background-color: #081430;
+    box-shadow: 0px 3px 0 #0000001a
+}
+.upload-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 85px;
+    width: 50%;
+    color: #FFFFFF;
+    border: solid 2px #FFFFFF;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: #081430;
+}
+
+.upload-section-content h1 {
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.upload-section-content p {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.upload-section-content label {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.upload-section-content button:hover {
+    background-color: #FFD700;
+    color: #081430;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.upload-section-content button {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 16px;
+    padding: 14px 32px;
+    border: solid 1px #FFFFFF;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #081430;
+    transition: 0.3s ease-in-out;
+    width: 200px;
+    margin-top: 20px;
+}
+.upload-section-content input {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #081430;
+    border: solid 1px #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+.resultsinterface-right pre {
+    white-space: pre-wrap; /* Maintains whitespace and formatting */
+    word-wrap: break-word; /* Ensures long text wraps */
+    overflow-wrap: break-word;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+    height: auto;
+    max-height: 400px;
+    overflow-y: auto; /* Allows scrolling within the container */
+}

@@ -1,0 +1,76 @@
+.contact-container {
+    position: absolute;
+    top: 2100px;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    background-color: #3f3f3f;
+    box-shadow: 0 5px 80px 0 #0000001a;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 85px 85px;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.contact-content p {
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form label {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    color: #FFFFFF;
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.contact-button {
+    padding: 14px 32px;
+    border: solid 1px #FFFFFF;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #3f3f3f;
+    transition: 0.3s ease-in-out;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.contact-button:hover {
+    background-color: #FFD700;
+    color: #3f3f3f;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transform: scale(1.05);
+}
