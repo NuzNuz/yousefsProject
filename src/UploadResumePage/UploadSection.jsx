@@ -99,7 +99,7 @@ const UploadSection = () => {
         formData.append('file', file);
 
         try {
-            const response = await fetch('/.netlify/functions/api/upload', {
+            const response = await fetch('https://yousefsproject.onrender.com/upload', {
                 method: 'POST',
                 body: formData
             });
