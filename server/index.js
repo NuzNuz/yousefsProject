@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 const fileUpload = require('express-fileupload');
 const pdf = require('pdf-parse');
-import serverless from 'serverless-http';
+
 app.use("/", express.static("public"));
 app.use(fileUpload());
 
